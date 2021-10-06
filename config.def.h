@@ -69,7 +69,7 @@ static const struct arg args[] = {
 	{vol_perc, "墳 %s%% | ", "/dev/mixer1"},
 	{disk_free, " / %s | ", "/" },
 	{disk_free, " /home %s | ", "/home" },
-	{datetime, "%s ",           "%F %H:%M" },
-	{battery_perc, " %s%% | ", "BAT0"},
-	{battery_perc, " %s%% | ", "BAT1"},
+	{battery_perc, "  %s%% | ", "BAT0"},
+	{battery_perc, "  %s%% | ", "BAT1"},
+	{datetime, "%s |",           "%F %H:%M" },
 };
