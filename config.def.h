@@ -65,11 +65,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{cpu_perc, "龍 %s%% | ", NULL},
-	{vol_perc, "墳 %s%% | ", "/dev/mixer1"},
-	{disk_free, " / %s | ", "/" },
-	{disk_free, " /home %s | ", "/home" },
-	{battery_perc, "  %s%% | ", "BAT0"},
-	{battery_perc, "  %s%% | ", "BAT1"},
-	{datetime, "%s |",           "%F %H:%M" },
+	{cpu_perc, "[ 龍 %s%% ] ", NULL},
+	{vol_perc, "[ 墳 %s%% ] ", "/dev/mixer1"},
+	{disk_free, "[  / %s ] ", "/" },
+	{disk_free, "[  /home %s ] ", "/home" },
+	{battery_perc, "[   %s%% ] ", "BAT0"},
+	{battery_perc, "[   %s%% ] ", "BAT1"},
+	{datetime, "[ %s ]",           "%F %H:%M" },
 };
